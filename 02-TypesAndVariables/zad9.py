@@ -1,0 +1,5 @@
+name = input("imie: \n")
+surname = input("nazwisko: \n")
+# print(name, surname)
+# print("imie " + name + " nazwisko " + surname)
+print(f"Imie: {name}\nNazwisko: {surname}")
