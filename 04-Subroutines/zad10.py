@@ -3,4 +3,4 @@ def read_number():
 
 
 x,y = read_number(), read_number()
-print(f"The numbers are: {x}, {y}")
+print(f"The numbers are: {x}, {y}, sum is = {x + y}")
