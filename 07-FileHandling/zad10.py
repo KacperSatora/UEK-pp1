@@ -1,0 +1,5 @@
+f = open("t10.txt", "w")
+f.write("Kacper\n")
+f.write("Satora\n")
+f.write("Uniwersytet Ekonomiczny\n")
+f.write("Informatyka stosowana\n")
