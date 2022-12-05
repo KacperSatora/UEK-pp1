@@ -9,7 +9,7 @@ def f(first_letter, last_letter):
         cleanList = []
 
         for word in cleanFile:
-            cleanList.append("".join(re.findall("[a-zA-Z]", word)))
+            cleanList.append("".join(re.findall("[a-zA-Z]", word))) # ew \w
 
         for word in cleanList:
             if word.startswith("w") and word.endswith("d"):
