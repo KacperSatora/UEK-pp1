@@ -17,4 +17,4 @@ def f(age, course, average):
     return count
 
 
-f()
+print(f(18, "economics", 3))
