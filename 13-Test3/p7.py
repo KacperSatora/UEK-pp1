@@ -21,11 +21,3 @@ class C:
         result = list(modelSet - digits)
         result.sort()
         return "".join(result)
-
-
-print(C.m1(4231564))
-print(C.m1(79381))
-print(C.m2(125579))
-print(C.m2(4557879))
-print(C.m3(23557))
-print(C.m3(12340))
